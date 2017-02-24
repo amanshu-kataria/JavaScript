@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+main{
+    width: 100px;
+    margin: 50px auto;
+}
+
+.trafficLightBox{
+    width: 100px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.trafficLights{
+    width: 90px;
+    height: 90px;
+    margin: 2px auto 3px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.redLight{
+    border-color: red;
+}
+
+.greenLight{
+    border-color: green;
+}
+
+.yellowLight{
+    border-color: yellow;
+}
+
+.controls{
+    margin-top: 5px;
+    text-align: center;
+}
