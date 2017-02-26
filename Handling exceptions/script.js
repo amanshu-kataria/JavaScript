@@ -19,5 +19,6 @@ function doAllTheThings(){
 }
 
 function reportError(e){
-    document.getElementById("exception_id").innerHTML="Uh oh, something went wrong, Here's what we know: "+e.message;
+    document.getElementById("exception1").innerHTML="Uh oh, something went wrong, Here's what we know: "+e.message + " (Includes only error message.)";
+    document.getElementById("exception2").innerHTML="Uh oh, something went wrong, Here's what we know: "+e+" (Includes both error name and error message.)";
 }
